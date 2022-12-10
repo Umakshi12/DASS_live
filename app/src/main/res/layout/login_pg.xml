@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:icon="@drawable/ic_action_name"
+        android:padding="8dp"
+        android:text="@string/dass"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+
+
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="221dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity='center'
+        android:layout_margin="30dp"
+        android:text="@string/login"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity='center'
+        android:layout_margin="30dp"
+        android:autofillHints="Phone number or username"
+        android:ems="10"
+        android:hint="@string/phone_number_or_username"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity='center'
+        android:layout_margin="30dp"
+        android:autofillHints="Password"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <ImageButton
+        android:id="@+id/img_btn_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_view"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="404dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Forgot_password"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="557dp"/>
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/don_t_have_an_account"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="600dp"
+        android:linksClickable="true"
+        tools:ignore="MissingConstraints" />
+
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="600dp"
+        android:textColor="@color/red"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
